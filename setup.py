@@ -1,8 +1,11 @@
 #/usr/bin/env python
 import os
 import sys
-
 from setuptools import setup, find_packages
+
+
+here = os.path.abspath(os.path.dirname(__file__))
+README = open(os.path.join(here, 'README.md')).read()
 
 version = __import__('king').__version__
 
@@ -10,7 +13,7 @@ setup(
     name='django-king',
     version=version,
     description='Utilities for Django projects',
-    long_description=read(os.path.join(os.path.dirname(__file__), 'README.md')),
+    long_description=README,
     author='Thiago Faria de Andrade',
     author_email='thiagofa@gmail.com',
     maintainer='Thiago Faria de Andrade',
