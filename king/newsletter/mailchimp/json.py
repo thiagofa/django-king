@@ -2,8 +2,8 @@
 from mailsnake import MailSnake
 from django.conf import settings
 from django.views.decorators.csrf import csrf_exempt
-from djangoking.newsletter.forms import SubscriptionForm
-from djangoking.utils.forms import get_last_error_message
+from king.newsletter.forms import SubscriptionForm
+from king.utils.forms import get_last_error_message
 import simplejson
 from django.http import HttpResponse
 from mailsnake.exceptions import ListAlreadySubscribedException
