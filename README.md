@@ -1,4 +1,6 @@
-djangoking
-==========
+Django King
+===
 
-Apps and utilities to help in Django development.
+Apps and utilities to support Django development.
+
+Read LICENSE file before use it.
